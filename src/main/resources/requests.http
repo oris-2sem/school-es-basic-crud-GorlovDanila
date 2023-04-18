@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/class
+
+###
+PUT http://localhost:8080/class?date_insert=2010-09-01&letter=A&timetable_id=1&teacher_id=1&students=1
+
+###
+DELETE http://localhost:8080/class?class_id=1
+
+###
+PATCH http://localhost:8080/class?id=2&date_insert=2010-09-11&letter=B&timetable_id=1&teacher_id=1&students=1
